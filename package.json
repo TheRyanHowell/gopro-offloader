@@ -1,0 +1,14 @@
+{
+  "name": "gopro-offloader",
+  "version": "1.0.0",
+  "description": "A project to make an automatic gopro footage offloader.",
+  "main": "index.js",
+  "author": "Ryan Howell",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "mkdirp": "^0.5.1",
+    "readdirp": "^3.0.1",
+    "shelljs": "^0.8.3"
+  }
+}

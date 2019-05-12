@@ -1,0 +1,13 @@
+[Unit]
+Description=Gopro offloader
+After=network.target
+RequiresMountsFor=/mnt/GoPro/output
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/bash /home/ryan/gopro-offloader/run.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
